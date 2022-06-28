@@ -48,5 +48,5 @@ Results
 
 ## Sponsor
 
-![Gitpod](https://www.gitpod.io/svg/media-kit/logo-light-theme.svg | width=250)
-![Svelte](https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg | width=250)
+[[https://www.gitpod.io/svg/media-kit/logo-light-theme.svg|width=100px]]
+[[https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg|width=100px]]
