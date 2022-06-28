@@ -35,17 +35,14 @@ const bob = { name: 'Bob', age: 23 }
 json2dir(
     '/root',
     {
-        ini: ini.encode,
-        json: JSON.stringify
+        '.ini': ini.encode,
+        '.json': JSON.stringify
     },
     {
         'a.json': bob,
         'b.ini': { INFO: bob },
-        c: {
-            d: {
-                'e.json': bob
-            }
-        }
+        c: { d: { 'e.json': bob } },
+        '.sub/foo.bar/f.json': bob
     }
 )
 ```
@@ -57,17 +54,19 @@ json2dir(
 │   a.json
 │   b.json
 │
-└───c
+└───c/d
+│   │
+│   │   e.json
+│
+└───.sub/foo.bar
     │
-    └───d
-        │
-        │   e.json
+    │   f.json
 ```
 
 ### Exceptions
 
 If serializer is not provided, an exception will occur.
-For example: `Error: No serializer for extension 'json'`
+For example: `Error: No serializer for extension '.json'`
 
 ## Sponsor
 
