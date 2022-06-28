@@ -1,3 +1,3 @@
 import json2dir from "json2dir";
 
-json2dir('.test', { json: JSON.stringify }, { 'a.json': { name: 'bob' } })
+json2dir('.test', {}, { 'a.json': { name: 'bob' } })
