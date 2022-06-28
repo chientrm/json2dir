@@ -22,7 +22,7 @@ jobs:
   json2dir:
     runs-on: ubuntu-latest
     needs: prepare
-#     if: needs.prepare.outputs.JSON2DIR == 'true'
+    if: needs.prepare.outputs.JSON2DIR == 'true'
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
