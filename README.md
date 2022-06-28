@@ -1,6 +1,10 @@
 # json2dir
 
 [![CI](https://github.com/chientrm/json2dir/actions/workflows/ci.yml/badge.svg)](https://github.com/chientrm/json2dir/actions/workflows/ci.yml)
+[![](https://img.shields.io/bundlephobia/min/json2dir)](https://www.npmjs.com/package/json2dir)
+[![](https://img.shields.io/discord/457912077277855764)](https://discord.com/invite/yy75DKs)
+[![](https://img.shields.io/npm/v/json2dir)](https://www.npmjs.com/package/json2dir)
+[![](https://img.shields.io/npm/dt/json2dir)](https://www.npmjs.com/package/json2dir)
 
 Convert JSON object to directory tree. Auto `mkdir` recursively.
 
@@ -51,6 +55,6 @@ Results
 ## Sponsor
 
 <img src="https://www.gitpod.io/svg/media-kit/logo-light-theme.svg" width="200">
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" height="200">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" width="50">
 
 <a href="https://www.buymeacoffee.com/chientrm" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
