@@ -48,7 +48,7 @@ json2dir(
 )
 ```
 
-Results
+### Results
 
 ```
 /root
@@ -61,6 +61,11 @@ Results
         │
         │   e.json
 ```
+
+### Exceptions
+
+If serializer is not provided, an exception will occur.
+For example: `Error: No serializer for ext 'a.json'`
 
 ## Sponsor
 
