@@ -30,6 +30,8 @@ json2dir(
 import json2dir from 'json2dir'
 import ini from 'ini'
 
+const bob = { name: 'Bob', age: 23 }
+
 json2dir(
     '/root',
     {
