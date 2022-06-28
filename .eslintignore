@@ -3,12 +3,14 @@ node_modules
 /dist
 /package
 .env
-.env.*
+.env.\*
 !.env.example
 .test
 /test
+/.github
 
 # Ignore files for PNPM, NPM and YARN
+
 pnpm-lock.yaml
 package-lock.json
 yarn.lock
