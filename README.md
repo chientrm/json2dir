@@ -65,7 +65,7 @@ json2dir(
 ### Exceptions
 
 If serializer is not provided, an exception will occur.
-For example: `Error: No serializer for ext 'a.json'`
+For example: `Error: No serializer for extension 'json'`
 
 ## Sponsor
 
