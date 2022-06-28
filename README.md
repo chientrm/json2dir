@@ -1,5 +1,7 @@
 # json2dir
 
+[![CI](https://github.com/chientrm/json2dir/actions/workflows/ci.yml/badge.svg)](https://github.com/chientrm/json2dir/actions/workflows/ci.yml)
+
 Convert JSON object to directory tree. Auto `mkdir` recursively.
 
 ## Install
