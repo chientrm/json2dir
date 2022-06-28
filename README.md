@@ -21,7 +21,7 @@ import json2dir from 'json2dir'
 import ini from 'ini'
 
 json2dir(
-    dir,
+    '/root',
     {
         ini: ini.encode,
         json: JSON.stringify
