@@ -13,7 +13,8 @@ const json2dir = (
         const ext = a.join('.')
         if (ext) {
             const serializer = serializers[ext]
-            if (!serializer) throw new Error(`No serializer for ext '${key}'`)
+            if (!serializer)
+                throw new Error(`No serializer for extension '${ext}'`)
             writeFileSync(`${dir}/${key}`, serializer(value))
         } else json2dir(`${dir}/${key}`, serializers, value)
     })
