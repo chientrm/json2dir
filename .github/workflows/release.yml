@@ -30,6 +30,7 @@ jobs:
             node-version: '16'
             cache: 'npm'
             cache-dependency-path: package-lock.json
+            registry-url: https://registry.npmjs.org/
       - run: npm ci
       - run: sed -i 's/1.0.0/${{ needs.prepare.outputs.TAG }}/g' package.json
       - run: npm publish
