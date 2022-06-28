@@ -4,7 +4,8 @@ Convert JSON object to directory tree. Auto `mkdir` recursively.
 
 ## Install
 
-```bash npm install json2dir```
+```bash
+npm install json2dir```
 
 ## Usage
 
