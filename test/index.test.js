@@ -1,4 +1,4 @@
-const json2dir = require('../dist').default
+const json2dir = require('../dist')
 const { rmSync, readFileSync } = require('fs')
 const ini = require('ini')
 
