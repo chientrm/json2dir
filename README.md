@@ -14,6 +14,16 @@ Convert JSON object to directory tree. Auto `mkdir` recursively.
 npm install json2dir
 ```
 
+## Types
+
+```ts
+json2dir(
+    dir: string,
+    serializers: Record<string, (obj: any) => string>,
+    obj: any
+) : void
+```
+
 ## Usage
 
 ```ts
