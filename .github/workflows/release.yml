@@ -13,8 +13,6 @@ jobs:
         run: echo ::set-output name=TAG::${GITHUB_REF/refs\/tags\//}
       - id: json2dir
         uses: jsmith/changes-since-last-tag@v0.4.1
-        with:
-          glob: **
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     outputs:
