@@ -52,7 +52,7 @@ json2dir(
 
 ### Results
 
-```
+```bash
 /root
 │   a.json
 │   b.json
