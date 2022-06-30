@@ -1,5 +1,6 @@
 # json2dir
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/271657e339754e6eb5b6fb9c0ee8c30e)](https://app.codacy.com/gh/chientrm/json2dir?utm_source=github.com&utm_medium=referral&utm_content=chientrm/json2dir&utm_campaign=Badge_Grade_Settings)
 [![CI](https://github.com/chientrm/json2dir/actions/workflows/ci.yml/badge.svg)](https://github.com/chientrm/json2dir/actions/workflows/ci.yml)
 [![](https://img.shields.io/bundlephobia/min/json2dir)](https://www.npmjs.com/package/json2dir)
 [![](https://img.shields.io/discord/457912077277855764)](https://discord.com/invite/yy75DKs)
