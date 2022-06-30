@@ -6,7 +6,10 @@
 [![](https://img.shields.io/npm/v/json2dir)](https://www.npmjs.com/package/json2dir)
 [![](https://img.shields.io/npm/dt/json2dir)](https://www.npmjs.com/package/json2dir)
 
-Convert JSON object to directory tree. Auto `mkdir` recursively.
+-   Convert JSON object to directory tree
+-   Auto `mkdir` recursively
+-   Zero dependencies
+-   Lightweight ~1 KB
 
 ## Install
 
@@ -71,6 +74,7 @@ For example: `Error: No serializer for extension '.json'`
 ## Sponsor
 
 <img src="https://www.gitpod.io/svg/media-kit/logo-light-theme.svg" width="200">
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" width="50">
 
-<a href="https://www.buymeacoffee.com/chientrm" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/chientrm" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60" width="217"></a>
