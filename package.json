@@ -19,7 +19,7 @@
     "scripts": {
         "build": "esbuild src/index.ts --footer:js=\"module.exports = module.exports.default;\" --bundle --sourcemap --minify --platform=node --outdir=dist && tsc --emitDeclarationOnly --outDir dist",
         "lint": "prettier --check --plugin-search-dir=. . && eslint .",
-        "test": "jest",
+        "test": "jest --coverage",
         "prepublish": "npm run lint && npm run build && npm run test"
     },
     "repository": {

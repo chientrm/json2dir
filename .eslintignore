@@ -8,6 +8,7 @@ node_modules
 .test
 /test
 /.github
+/coverage
 
 # Ignore files for PNPM, NPM and YARN
 

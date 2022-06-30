@@ -8,6 +8,7 @@ node_modules
 .test
 .github
 /test
+/coverage
 
 # Ignore files for PNPM, NPM and YARN
 pnpm-lock.yaml
