@@ -5,6 +5,8 @@
 [![](https://img.shields.io/discord/457912077277855764)](https://discord.com/invite/yy75DKs)
 [![](https://img.shields.io/npm/v/json2dir)](https://www.npmjs.com/package/json2dir)
 [![](https://img.shields.io/npm/dt/json2dir)](https://www.npmjs.com/package/json2dir)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e3c021b173854e749d48bb8db2a789ed)](https://www.codacy.com/gh/chientrm/json2dir/dashboard?utm_source=github.com&utm_medium=referral&utm_content=chientrm/json2dir&utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/e3c021b173854e749d48bb8db2a789ed)](https://www.codacy.com/gh/chientrm/json2dir/dashboard?utm_source=github.com&utm_medium=referral&utm_content=chientrm/json2dir&utm_campaign=Badge_Coverage)
 
 -   Convert JSON object to directory tree
 -   Auto `mkdir` recursively
