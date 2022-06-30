@@ -14,13 +14,14 @@
         "ini": "^3.0.0",
         "jest": "^28.1.1",
         "prettier": "^2.7.1",
-        "typescript": "^4.7.4"
+        "typescript": "^4.7.4",
+        "@typescript-eslint/parser": "^5.0.0"
     },
     "scripts": {
         "build": "esbuild src/index.ts --footer:js=\"module.exports = module.exports.default;\" --bundle --sourcemap --minify --platform=node --outdir=dist && tsc --emitDeclarationOnly --outDir dist",
         "lint": "prettier --check --plugin-search-dir=. . && eslint .",
-        "test": "jest",
-        "prepublish": "npm run lint && npm run build && npm run test"
+        "test": "jest --coverage",
+        "prepublish": "npm run lint && npm run build"
     },
     "repository": {
         "type": "git",
